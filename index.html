@@ -29,7 +29,7 @@
     <header>
 
         <a href="#home" class="logo">
-            <img src="./images/profile.jpg" alt=""><br>
+            <img src="./images/profile.webP"><br>
             <span>Zan</span> Coulibaly </a>
 
         <nav class="navbar">
@@ -76,7 +76,7 @@
         <div class="row-1">
 
             <div class="image">
-                <img src="images/Zan.jpg" alt="">
+                <img src="images/Zan.webP">
             </div>
 
             <div class="content">
@@ -95,7 +95,7 @@
                         <p> <span> Pays : </span> Mali </p>
                     </div>
                 </div>
-                <a href="#" class="btn">Télécharger CV</a>
+                <a href="document/CV.pdf" class="btn">Télécharger CV</a>&nbsp;&nbsp;<a href="mailto:balamine129@gmail.com" class="btn">Contactez-Moi</a>
             </div>
 
         </div><br><br><br>
@@ -299,13 +299,13 @@
 
         <div class="row">
 
-            <form>
+            <form action="message.php" method="post">
 
-                <input type="text" placeholder="nom" class="box">
-                <input type="email" placeholder="email" class="box">
-                <input type="number" placeholder="numéro" class="box">
+                <input type="text" name="name" placeholder="nom" class="box">
+                <input type="email" name="email" placeholder="email" class="box">
+                <input type="number" name="tel" placeholder="numéro" class="box">
 
-                <textarea name="message" placeholder="message" cols="30" rows="10"></textarea>
+                <textarea name="message" name="message" placeholder="message" cols="30" rows="10"></textarea>
 
                 <input type="submit" class="btn" value="envoye message">
 
